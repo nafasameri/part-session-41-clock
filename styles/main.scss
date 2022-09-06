@@ -24,13 +24,14 @@ body {
   margin: 0;
 
   .mobile {
+    $mobile-color: rgb(234, 234, 234);
     @include center();
     width: 300px;
-    height: 500px;
-    background-color: cornsilk;
+    height: 600px;
+    background-color: $mobile-color;
     border-radius: 10px;
     padding: 10px;
-    border: 1px solid #000000;
+    border: 1px solid white;
     -moz-box-shadow: inset 10px 10px 10px rgba(255, 255, 255, .4), inset -10px -10px 10px rgba(0, 0, 0, .4);
     -webkit-box-shadow: inset 10px 10px 10px rgba(255, 255, 255, .4), inset -10px -10px 10px rgba(0, 0, 0, .4);
     box-shadow: inset 10px 10px 10px rgba(255, 255, 255, .4), inset -10px -10px 10px rgba(0, 0, 0, .4);
@@ -39,12 +40,12 @@ body {
 
     &__analogclock {
       @include center();
-      $clock-color: whitesmoke;
+      $clock-color: rgb(239, 239, 239);;
       width: 200px;
       height: 200px;
       background-color: $clock-color;
       border-radius: 50%;
-      border: 1px solid #000000;
+      border: 1px solid white;
       margin: 20px;
       position: relative;
       box-shadow: -1px -1px 2px 1px rgba(0, 0, 0, 0.49);
