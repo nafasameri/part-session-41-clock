@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "roboto";
+  font-weight: normal;
+  src: url(../fonts/roboto-medium.ttf);
+}
+@font-face {
+  font-family: "roboto";
+  font-weight: bold;
+  src: url(../fonts/roboto-regular.ttf);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightsteelblue;
+  margin: 0;
+}
+body .mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 500px;
+  background-color: cornsilk;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #000000;
+  -moz-box-shadow: inset 10px 10px 10px rgba(255, 255, 255, 0.4), inset -10px -10px 10px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 10px 10px 10px rgba(255, 255, 255, 0.4), inset -10px -10px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 10px 10px 10px rgba(255, 255, 255, 0.4), inset -10px -10px 10px rgba(0, 0, 0, 0.4);
+  margin: 0;
+  flex-wrap: wrap;
+}
+body .mobile__analogclock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  margin: 20px;
+  position: relative;
+  box-shadow: -1px -1px 2px 1px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: -1px -1px 2px 1px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: -1px -1px 2px 1px rgba(0, 0, 0, 0.49);
+}
+body .mobile__analogclock__cycle {
+  width: 7px;
+  height: 7px;
+  border: 3px solid red;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  z-index: 999;
+}
+body .mobile__analogclock__hour-hand {
+  background-color: black;
+  width: 4px;
+  height: 60px;
+  border-radius: 2px;
+  transform: rotate(130deg);
+  position: absolute;
+  top: 88px;
+  left: 120px;
+}
+body .mobile__analogclock__minute-hand {
+  background-color: black;
+  width: 3px;
+  height: 80px;
+  border-radius: 2px;
+  transform: rotate(60deg);
+  position: absolute;
+  top: 41px;
+  left: 130px;
+}
+body .mobile__analogclock__second-hand {
+  background-color: red;
+  width: 3px;
+  height: 90px;
+  border-radius: 2px;
+  transform: rotate(320deg);
+  position: absolute;
+  top: 20px;
+  left: 70px;
+}
+body .mobile__digitalclock {
+  padding: 5px;
+  font-family: "roboto";
+  font-size: 50px;
+}
+body .mobile__description {
+  padding: 18px;
+  font-family: "roboto";
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: gray;
+}
+
+/*# sourceMappingURL=main.css.map */

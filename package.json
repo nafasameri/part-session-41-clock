@@ -1,0 +1,19 @@
+{
+  "name": "41-clock",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass ./styles/main.scss ./styles/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://igit.partdp.ir/college/developer4/nafiseh-ameri/41-clock.git"
+  },
+  "author": "Nafas Ameri",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.54.8"
+  }
+}
